@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Survey Form</title>
+  <meta name="viewport" content="width=device.width", initial-sacale="0">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<style>
+  p {
+    text-align:center;
+    font-size: medium;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+</style>
+</head>
+
+<body style="background-color:lightblue;">
+ <h1 style="text-align:Center; font-family: 'Arial' ;">Citizenship Form</h1>
+ <p>This is a test website created by Jude David</p>
+ <h2>Personal Information</h2>
+
+  <form action="thankyou.html" target="_self" id="citizenship_form">
+    <div style="text-align:center">
+      <label>Full Name:</label>
+  <input type="text" id="name" name="fullname" placeholder="Full Name"  required><br></br>
+    </div>
+    <div style="text-align: center;">
+    <labe>Date of Birth:</labe>
+    <input type="date" id="birth" required><br></br>
+    </div>
+    <div style="text-align: center;">
+    <label>Place of Birth:</label>
+    <input type="text" id="placeofbirth" required><br></br>
+  </div>
+  
+   
+  <h2>Citizenship Details</h2>
+  
+    <div style="text-align: center; font-size: larger;">
+     <label for="nationality">Citizenship/Nationality:</label>
+     <select id="nationality" name="nationality" required>
+      <option value="filipino">Filipino</option>
+      <option value="german">German</option>
+      <option value="japanese">Japanese</option>
+      <option value="chinese">Chinese</option>
+     </select>
+    </div>
+
+    <div style="text-align: center;">
+    <p style="font-size: large;">Dual Citizenship:</p>
+    <label>Yes</label>
+    <input type="checkbox" id="yes" >
+    <label>No</label>
+    <input type="checkbox" id="no" >
+    </div>
+    
+    <div style="text-align: center;"><br>
+    <label>If yes, specify other citizenship:</label>
+    <input type="text" placeholder="Example:German" >
+    </div>
+  
+  <div style="text-align: center;"><br></br>
+    <input type="submit" value="Submit:"><br></br>
+  </div>
+  
+  
+  <div style="text-align: center;">
+  <textarea name="feedback" rows="10" cols="40" placeholder="Any feedbacks will help me to improve this test website" min="0" maxlength="150"></textarea>
+  </div>
+  
+  
+  </form>
+
+<footer>THANKYOU FOR ANSWERING THIS TEST SURVEY FORM</footer>
+<p> &copy; 2026</p>
+
+
+
+
+
+</body>
+</html>
